@@ -1,8 +1,9 @@
 # hlsConverter
 hlsConverter can convert video to hls.
 
-```
-ffmpegPath := "E:/env/pkg/ffmpeg-master-latest-win64-gpl-shared/bin/ffmpeg.exe"
+usage
+```go
+	ffmpegPath := "E:/env/pkg/ffmpeg-master-latest-win64-gpl-shared/bin/ffmpeg.exe"
 	srcPath := "static/assets/videos/example.mp4"
 	targetPath := "static/assets/videos"
 	framePosition := "1"
